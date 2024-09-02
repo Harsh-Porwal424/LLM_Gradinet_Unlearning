@@ -29,6 +29,13 @@ python general_similarity_retrain.py -m <model_path_or_name> [options]
 ```
 
 
+#### Example
+
+```bash
+python general_similarity_retrain.py -m bert-base-uncased -n 5 -b 32 -l 1e-5 -k 10000
+```
+
+
 ### Evaluating Models
 
 Use the `evaluate_models.py` script to evaluate the bias of LLMs using the StereoSet dataset. It can evaluate both pre-trained models and fine-tuned versions.
@@ -52,12 +59,6 @@ python src/evaluate_models.py -t <model_type> -m <model_name> [options]
 python src/evaluate_models.py -t bert-base-uncased -m bert-base-uncased --pretrained_only
 ```
 
-
-#### Example
-
-```bash
-python general_similarity_retrain.py -m bert-base-uncased -n 5 -b 32 -l 1e-5 -k 10000
-```
 
 ## Unlearning Process
 
