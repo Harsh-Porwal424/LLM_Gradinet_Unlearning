@@ -10,6 +10,10 @@ This project focuses on evaluating and mitigating biases in Large Language Model
 2. **Ensure Fairness:** Make sure that the model's outputs are fair across different domains.
 3. **Compliance and Trust:** Meet legal and ethical standards for AI fairness.
 
+## Unlearning Architecture
+
+![Unlearning Framework](https://firebasestorage.googleapis.com/v0/b/shikshasamvad-7f230.appspot.com/o/file-upload%2FScreenshot%202024-09-02%20at%2010.29.12%E2%80%AFAM.png?alt=media&token=ddc0b8c9-84bf-4b93-a227-3f08de70e19d)
+
 ## Bias Metrics
 
 To evaluate and mitigate bias, the following metrics are used:
@@ -100,7 +104,9 @@ To evaluate a model on CrowS, use the script `src/eval_on_crows.py`.
 
 Link: https://drive.google.com/drive/folders/12brIo3FtibSkfV4AJ1-BB6J47EIgIFMh?usp=sharing
 
-[rel] (https://github.com/Harsh-Porwal424/LLM_Gradinet_Unlearning/blob/main/0.5results/bert-base-uncased_results_map.json)
+## Repository Used For Reference
+
+Link: https://github.com/CharlesYu2000/PCGU-UnlearningBias?tab=readme-ov-file
 
 ## Contributing
 
