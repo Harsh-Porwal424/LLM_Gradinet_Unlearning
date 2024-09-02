@@ -6,17 +6,17 @@ This project focuses on evaluating and mitigating biases in Large Language Model
 
 ### Why This Project?
 
-1. Prevent Harmful Outputs: Ensure that models do not reinforce harmful stereotypes or biases.
-2. Ensure Fairness: Make sure that the model's outputs are fair across different domains.
-3. Compliance and Trust: Meet legal and ethical standards for AI fairness.
+1. **Prevent Harmful Outputs:** Ensure that models do not reinforce harmful stereotypes or biases.
+2. **Ensure Fairness:** Make sure that the model's outputs are fair across different domains.
+3. **Compliance and Trust:** Meet legal and ethical standards for AI fairness.
 
 ## Bias Metrics
 
 To evaluate and mitigate bias, the following metrics are used:
 
-1. StereoSet Score (ss): Measures how well the model avoids generating biased or stereotypical text.
-2. Likelihood Score (lms): Assesses the likelihood that the model generates unbiased content.
-3. In-Context Acceptance Score (icat): Evaluates how the model handles contextually sensitive information.
+1. **StereoSet Score (ss):** Measures how well the model avoids generating biased or stereotypical text.
+2. **Likelihood Score (lms):** Assesses the likelihood that the model generates unbiased content.
+3. **In-Context Acceptance Score (icat):** Evaluates how the model handles contextually sensitive information.
 
 ## Usage
 
