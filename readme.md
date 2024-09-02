@@ -96,6 +96,12 @@ Evaluation results are stored in the `results` folder:
 
 To evaluate a model on CrowS, use the script `src/eval_on_crows.py`.
 
+## Drive Link of Models & Work Done
+
+Link: https://drive.google.com/drive/folders/12brIo3FtibSkfV4AJ1-BB6J47EIgIFMh?usp=sharing
+
+[rel] (https://github.com/Harsh-Porwal424/LLM_Gradinet_Unlearning/blob/main/0.5results/bert-base-uncased_results_map.json)
+
 ## Contributing
 
 Feel free to extend or modify the implementation in `src/general_similarity_retrain.py`. The training procedure is simple and each epoch is cheap to train, allowing for experimentation with different configurations.
