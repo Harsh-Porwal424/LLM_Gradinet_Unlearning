@@ -71,7 +71,7 @@ The unlearning process is designed to remove the influence of specific training 
     - _minimize_grads_2: Minimizes gradients from the second set.
     - _maximize_grads_1: Maximizes gradients from the first set.
     - _maximize_grads: Maximizes the sum of both gradient sets.
-5.**Checkpointing:** Save model checkpoints periodically to allow for resuming training or to evaluate different stages of the model.
+5. **Checkpointing:** Save model checkpoints periodically to allow for resuming training or to evaluate different stages of the model.
 
 
 
