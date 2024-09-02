@@ -68,9 +68,9 @@ The unlearning process is designed to remove the influence of specific training 
 2. **Dynamic Gradient Selection:** Optionally, use dynamic gradient selection to adjust the gradients based on their impact on model performance. This involves multiplying the gradients by a factor depending on whether they are advantageous or disadvantaged.
 3. **Parameter Update:** Update the model parameters using the computed gradients. The script uses similarity metrics to decide which parameters to keep and how to update them. Parameters are updated based on their gradients’ similarity, minimizing or maximizing their influence as specified.
 4. **Gradient Calculation Functions:**
-    •	_minimize_grads_2: Minimizes gradients from the second set.
-    •	_maximize_grads_1: Maximizes gradients from the first set.
-    •	_maximize_grads: Maximizes the sum of both gradient sets.
+    - _minimize_grads_2: Minimizes gradients from the second set.
+    - _maximize_grads_1: Maximizes gradients from the first set.
+    - _maximize_grads: Maximizes the sum of both gradient sets.
 5.**Checkpointing:** Save model checkpoints periodically to allow for resuming training or to evaluate different stages of the model.
 
 
