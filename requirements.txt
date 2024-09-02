@@ -1,2 +1,4 @@
-torch==1.4.0
-transformers==4.10.3
+torch 
+transformers
+pandas 
+numpy
